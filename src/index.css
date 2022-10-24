@@ -1,0 +1,35 @@
+/* Reseteo */
+
+:root {
+  --background-body: #06292E;
+  --background-cards: #062226;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-body);
+  color: white;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+button {
+  border: none;
+}
+
+input {
+  outline: none;
+  width: 13%;
+}
